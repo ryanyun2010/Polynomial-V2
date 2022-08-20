@@ -1,0 +1,33 @@
+\documentclass[12pt, letterpaper, twoside]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Math}
+\begin{document}
+	
+	\maketitle
+\section{Problem 1}
+$a$ in all forms purely changes the shape and direction of the parabola. $c$ in the expanded form is the y-intercept. $d$ in the vertex form is the $x$ coordinate of the vertex. $h$ in vertex form is the $y$ coordinate of the vertex. $x_1$ and $x_2$ in the factored form represent the two x-intercepts. Increasing $b$ while $a$ is positive moves the vertex of the parabola left while maintaining the same shape and y-intercept. Decreasing $b$ while $a$ is positive moves the vertex of the parabola right while maintaining the same shape and y-intercept. Increasing $b$ while $a$ is negative moves the vertex of the parabola right while maintaining the same shape and y-intercept. Decreasing $b$ while $a$ is positive moves the vertex of the parabola left.
+\section{Problem 2}
+A quadratic does not have a factored form if $4ac > b^2$
+\section{Problem 3}
+$x_1$ and $x_2$ are solutions to the equation $0 = ax^2 + bx + c$.
+\section{Problem 4}
+\subsection{Expanded to Vertex}
+We start by expanding the $a(x-d)^2$ term:\newline
+$a(x-d)^2 = a(x^2 - 2xd + d^2)$\newline
+$= ax^2 - 2axd + ad^2$\newline
+The $ax^2$ is good and matches the expanded form. We want the $-2axd$ to equal $+bx$. We can do this by setting $d$ to $\frac{-b}{2a}$.\newline
+Next for the $h$ term. To get the $h$ term we first want to remove the $ad^2$ from the previous expansion and add $c$. So $h = c - ad^2$. Since we already know $d = \frac{-b}{2a}$ we can plug that in and get $h = c-\frac{-ab^2}{4a^2}$. We can simplify to $h = c-\frac{-b^2}{4a} = \frac{4ac+b^2}{4a}$
+\subsection{Expanded to Factored}
+$a$ is the same in both forms. $x_1$ and $x_2$ are the two solutions to the quadratic formula $\frac{-b \pm \sqrt{b^2-4ac}}{2a} = 0$.
+\subsection{Vertex to Expanded}
+$a$ is the same in both forms. $b = -2da$ and $c = h+ \frac{-ab^2}{4a^2}$.
+\subsection{Vertex to Factored}
+$a$ is the same in both forms. $x_1$ and $x_2$ are the two solutions to $0 = a(x+d)^2 + h$
+\subsection{Factored to Expanded}
+$a$ is the same in both forms. $b = ax_1x_2$, $c = x_1x_2$.
+\subsection{Factored to Vertex}
+$a$ is the same in both forms. We already know $d = \frac{-b}{2a}$ and $h = c-\frac{-ab^2}{4a^2}$. We also know $b = ax_1x_2$ and $c = x_1x_2$. If we plug these into the first to equations we get $d = \frac{-(ax_1x_2)}{2a} = \frac{-x_1x_2}{2a}$ and $h = x_1x_2 - \frac{-ab^2}{4a^2}$.
+\section{Problem 5}
+Let $(x_0,y_0)$ be a solution to the equation $y = f(x)$. If you change the $x$ to $x-s$, increasing $x_0$ by $s$ to account for the decrease by $s$ would also be a solution. Therefore $x_0 + s, y_0$ is a solution to $y = f(x-s)$. If you change $y$ to $y-t$, if you added $t$ to $x_0$ it would cancel out the $t$, therefore $(x_0, y_0 + t)$ is a solution. If we combine the two we find that $(x_0 + s, y_0 + t)$ is always a solution to $y-t =  f(x-s)$ if $(x_0,y_0)$ is a solution to $y = f(x)$. This means that if you increase $s$, every point moves right, and if you increase $t$ every point moves up.
+\end{document}
